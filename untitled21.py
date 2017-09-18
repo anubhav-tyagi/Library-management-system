@@ -285,7 +285,7 @@ elif r== 2:
                     print(book)
             file.close()
         if choice==3:
-            file= open('1styr_issue.txt.','r')
+            file= open('1styr_issue.txt','r')
             my_str= file.read()
             print(my_str)
             file.close()
